@@ -1,8 +1,8 @@
 // import React from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
-import Home from './components/Home';
-import About from './components/About';
-import Settings from './components/Settings';
+import Home from './pages/Home';
+import About from './pages/About';
+import Settings from './pages/Settings';
 function App() {
   return (
     <>
