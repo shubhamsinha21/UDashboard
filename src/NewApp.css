@@ -35,3 +35,13 @@
     rgb(28, 138, 129) 100%
   );
 }
+
+.bgcolor {
+  min-height: 100vh;
+  background: #eceff1;
+  background: linear-gradient(
+    158deg,
+    rgb(224, 224, 224) 0%,
+    rgb(223, 237, 254)
+  );
+}

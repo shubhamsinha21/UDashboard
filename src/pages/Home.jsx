@@ -13,115 +13,117 @@ import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Box height={70} />
-      <Box sx={{ display: "flex" }}>
-        <Sidenav />
-        <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-          <Grid container spacing={2}>
-            <Grid item xs={8}>
-              <Stack spacing={2} direction={"row"}>
-                <Card
-                  sx={{ minWidth: 49 + "%", height: 150 }}
-                  className="gradient"
-                >
-                  <CardContent>
-                    <div className="iconStyle">
-                      <CreditCardIcon />
-                    </div>
-                    <Typography
-                      gutterBottom
-                      variant="h5"
-                      component="div"
-                      sx={{ color: "#ffffff" }}
-                    >
-                      $500.00
-                    </Typography>
-                    <Typography
-                      gutterBottom
-                      variant="body2"
-                      component="div"
-                      sx={{ color: "#ccd1d1" }}
-                    >
-                      Total Earnings
-                    </Typography>
-                  </CardContent>
-                </Card>
-                <Card
-                  sx={{ minWidth: 49 + "%", height: 150 }}
-                  className="gradient2"
-                >
-                  <CardContent>
-                    <div className="iconStyle">
-                      <ShoppingBagIcon />
-                    </div>
-                    <Typography
-                      gutterBottom
-                      variant="h5"
-                      component="div"
-                      sx={{ color: "#ffffff" }}
-                    >
-                      $900.00
-                    </Typography>
-                    <Typography
-                      gutterBottom
-                      variant="body2"
-                      component="div"
-                      sx={{ color: "#ccd1d1" }}
-                    >
-                      Total Orders
-                    </Typography>
-                  </CardContent>
-                </Card>
-              </Stack>
-            </Grid>
-            <Grid item xs={4}>
-              <Stack spacing={2}>
-                <Card className="gradient2">
-                  <Stack spacing={2} direction="row">
-                    <div className="iconStyle">
-                      <StorefrontIcon />
-                    </div>
+      <div className="bgcolor">
+        <Box height={70} />
+        <Box sx={{ display: "flex" }}>
+          <Sidenav />
+          <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+            <Grid container spacing={2}>
+              <Grid item xs={8}>
+                <Stack spacing={2} direction={"row"}>
+                  <Card
+                    sx={{ minWidth: 49 + "%", height: 150 }}
+                    className="gradient"
+                  >
+                    <CardContent>
+                      <div className="iconStyle">
+                        <CreditCardIcon />
+                      </div>
+                      <Typography
+                        gutterBottom
+                        variant="h5"
+                        component="div"
+                        sx={{ color: "#ffffff" }}
+                      >
+                        $500.00
+                      </Typography>
+                      <Typography
+                        gutterBottom
+                        variant="body2"
+                        component="div"
+                        sx={{ color: "#ccd1d1" }}
+                      >
+                        Total Earnings
+                      </Typography>
+                    </CardContent>
+                  </Card>
+                  <Card
+                    sx={{ minWidth: 49 + "%", height: 150 }}
+                    className="gradient2"
+                  >
+                    <CardContent>
+                      <div className="iconStyle">
+                        <ShoppingBagIcon />
+                      </div>
+                      <Typography
+                        gutterBottom
+                        variant="h5"
+                        component="div"
+                        sx={{ color: "#ffffff" }}
+                      >
+                        $900.00
+                      </Typography>
+                      <Typography
+                        gutterBottom
+                        variant="body2"
+                        component="div"
+                        sx={{ color: "#ccd1d1" }}
+                      >
+                        Total Orders
+                      </Typography>
+                    </CardContent>
+                  </Card>
+                </Stack>
+              </Grid>
+              <Grid item xs={4}>
+                <Stack spacing={2}>
+                  <Card className="gradient2">
+                    <Stack spacing={2} direction="row">
+                      <div className="iconStyle">
+                        <StorefrontIcon />
+                      </div>
 
-                    <div className="paddingAll">
-                      <span className="priceTitle">$230k</span>
-                      <br />
-                      <span className="priceSubTitle">Total Income</span>
-                    </div>
-                  </Stack>
-                </Card>
-                <Card sx={{ maxWidth: 345 }}>
-                  <Stack spacing={2} direction="row">
-                    <div className="iconStyleBlack">
-                      <StorefrontIcon />
-                    </div>
+                      <div className="paddingAll">
+                        <span className="priceTitle">$230k</span>
+                        <br />
+                        <span className="priceSubTitle">Total Income</span>
+                      </div>
+                    </Stack>
+                  </Card>
+                  <Card>
+                    <Stack spacing={2} direction="row">
+                      <div className="iconStyleBlack">
+                        <StorefrontIcon />
+                      </div>
 
-                    <div className="paddingAll">
-                      <span className="priceTitle">$230k</span>
-                      <br />
-                      <span className="priceSubTitle">Total Income</span>
-                    </div>
-                  </Stack>
-                </Card>
-              </Stack>
+                      <div className="paddingAll">
+                        <span className="priceTitle">$230k</span>
+                        <br />
+                        <span className="priceSubTitle">Total Income</span>
+                      </div>
+                    </Stack>
+                  </Card>
+                </Stack>
+              </Grid>
             </Grid>
-          </Grid>
 
-          <Box height={20} />
-          <Grid container spacing={2}>
-            <Grid item xs={8}>
-              <Card sx={{ height: 60 + "vh" }}>
-                <CardContent></CardContent>
-              </Card>
+            <Box height={20} />
+            <Grid container spacing={2}>
+              <Grid item xs={8}>
+                <Card sx={{ height: 60 + "vh" }}>
+                  <CardContent></CardContent>
+                </Card>
+              </Grid>
+              <Grid item xs={4}>
+                <Card sx={{ height: 60 + "vh" }}>
+                  <CardContent></CardContent>
+                </Card>
+              </Grid>
             </Grid>
-            <Grid item xs={4}>
-              <Card sx={{ height: 60 + "vh" }}>
-                <CardContent></CardContent>
-              </Card>
-            </Grid>
-          </Grid>
+          </Box>
         </Box>
-      </Box>
+      </div>
+      <Navbar />
     </>
   );
 }
