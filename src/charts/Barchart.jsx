@@ -18,7 +18,7 @@ export const options = {
     title: "Company Performance",
     subtitle: "Sales, Expenses, and Profit: 2014-2017",
   },
-  colors: ["#1c8a81", "#bdc94b", "#ff9c8d"],
+  colors: ["#1c8a81", "rgb(255, 141, 151)", "rgb(30, 79, 143)"],
 };
 
 export default function Barchart() {

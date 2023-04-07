@@ -14,12 +14,12 @@ export default function AccordianComp() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Accordion 1</Typography>
+          <Typography>Washing Machine</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Whirlpool 6.5 Kg 5 Star Royal Fully-Automatic Top Loading Washing
+            Machine
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -29,12 +29,11 @@ export default function AccordianComp() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Accordion 2</Typography>
+          <Typography>Air Cooler</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Bajaj DMH70 70 litres Desert Air Cooler with Turbo Fan technology
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -44,12 +43,11 @@ export default function AccordianComp() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Accordion 2</Typography>
+          <Typography>AC</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Havells-Lloyd 1.5 Ton 5 Star Inverter Split AC.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -59,12 +57,12 @@ export default function AccordianComp() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Accordion 2</Typography>
+          <Typography>Refrigerator</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            LG 215 Litres 3 Star Single Door Refrigerator, Blue Euphoria
+            GL-B221ABED. ₹18,512.00 ₹24,999.00.
           </Typography>
         </AccordionDetails>
       </Accordion>

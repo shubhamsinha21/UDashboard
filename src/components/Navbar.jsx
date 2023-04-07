@@ -186,9 +186,11 @@ export default function Navbar() {
             variant="h6"
             noWrap
             component="div"
-            sx={{ display: { xs: "none", sm: "block" } }}
+            sx={{
+              display: { xs: "none", sm: "block", color: "rgb(28, 138, 129)" },
+            }}
           >
-            MUI
+            <span className="logo">U</span>dashboard
           </Typography>
           <Search>
             <SearchIconWrapper>
