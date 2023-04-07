@@ -9,6 +9,7 @@ import "../NewApp.css";
 import StorefrontIcon from "@mui/icons-material/Storefront";
 import CreditCardIcon from "@mui/icons-material/CreditCard";
 import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
+import AccordianComp from "../components/AccordianComp";
 
 export default function Home() {
   return (
@@ -116,7 +117,12 @@ export default function Home() {
               </Grid>
               <Grid item xs={4}>
                 <Card sx={{ height: 60 + "vh" }}>
-                  <CardContent></CardContent>
+                  <CardContent>
+                    <div className="paddingAll">
+                      <span className="priceTitle">Popular Products</span>
+                    </div>
+                    <AccordianComp />
+                  </CardContent>
                 </Card>
               </Grid>
             </Grid>
