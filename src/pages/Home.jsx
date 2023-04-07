@@ -10,6 +10,7 @@ import StorefrontIcon from "@mui/icons-material/Storefront";
 import CreditCardIcon from "@mui/icons-material/CreditCard";
 import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
 import AccordianComp from "../components/AccordianComp";
+import BarChart from "../charts/Barchart";
 
 export default function Home() {
   return (
@@ -112,7 +113,9 @@ export default function Home() {
             <Grid container spacing={2}>
               <Grid item xs={8}>
                 <Card sx={{ height: 60 + "vh" }}>
-                  <CardContent></CardContent>
+                  <CardContent>
+                    <BarChart />
+                  </CardContent>
                 </Card>
               </Grid>
               <Grid item xs={4}>
