@@ -7,6 +7,10 @@ export const data = [
   ["2015", 1170, 460, 250],
   ["2016", 660, 1120, 300],
   ["2017", 1030, 540, 350],
+  ["2018", 1100, 760, 220],
+  ["2019", 1000, 200, 850],
+  ["2020", 900, 850, 550],
+  ["2021", 830, 600, 450],
 ];
 
 export const options = {
@@ -14,6 +18,7 @@ export const options = {
     title: "Company Performance",
     subtitle: "Sales, Expenses, and Profit: 2014-2017",
   },
+  colors: ["#1c8a81", "#bdc94b", "#ff9c8d"],
 };
 
 export default function Barchart() {
@@ -21,7 +26,7 @@ export default function Barchart() {
     <Chart
       chartType="Bar"
       width="100%"
-      height="400px"
+      height="350px"
       data={data}
       options={options}
     />
