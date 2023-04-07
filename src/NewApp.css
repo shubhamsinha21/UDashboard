@@ -1,0 +1,16 @@
+.paddingAll {
+  padding: 10px;
+}
+
+.priceTitle {
+  font-weight: 600;
+}
+
+.priceSubtitle {
+  font-size: 14px;
+}
+
+.iconStyle {
+  margin-top: 20px;
+  margin-left: 20px;
+}
