@@ -12,6 +12,7 @@ import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
 import AccordianComp from "../components/AccordianComp";
 import BarChart from "../charts/Barchart";
 import ReceiptIcon from "@mui/icons-material/Receipt";
+import CountUp from "react-countup";
 
 export default function Home() {
   return (
@@ -39,7 +40,7 @@ export default function Home() {
                         component="div"
                         sx={{ color: "#ffffff" }}
                       >
-                        $500.00
+                        $<CountUp end={1050} delay={0.3} duration={0.5} />
                       </Typography>
                       <Typography
                         gutterBottom
@@ -65,7 +66,7 @@ export default function Home() {
                         component="div"
                         sx={{ color: "#ffffff" }}
                       >
-                        $900.00
+                        $<CountUp end={106} delay={0.3} duration={0.5} />
                       </Typography>
                       <Typography
                         gutterBottom
@@ -88,7 +89,9 @@ export default function Home() {
                       </div>
 
                       <div className="paddingAll">
-                        <span className="priceTitle">$230k</span>
+                        <span className="priceTitle">
+                          $<CountUp end={230} delay={0.3} duration={0.5} />k
+                        </span>
                         <br />
                         <span className="priceSubTitle">Total Income</span>
                       </div>
@@ -101,7 +104,9 @@ export default function Home() {
                       </div>
 
                       <div className="paddingAll">
-                        <span className="priceTitle">352</span>
+                        <span className="priceTitle">
+                          <CountUp end={340} delay={0.3} duration={0.5} />
+                        </span>
                         <br />
                         <span className="priceSubTitle">Total Sales</span>
                       </div>

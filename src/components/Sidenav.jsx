@@ -15,7 +15,7 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { IconButton } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
-import GroupIcon from "@mui/icons-material/Group";
+import CategoryIcon from "@mui/icons-material/Category";
 import AnalyticsIcon from "@mui/icons-material/Analytics";
 import SettingsIcon from "@mui/icons-material/Settings";
 
@@ -118,7 +118,7 @@ export default function Sidenav() {
           <ListItem
             disablePadding
             sx={{ display: "block" }}
-            onClick={() => navigate("/users")}
+            onClick={() => navigate("/products")}
           >
             <ListItemButton
               sx={{
@@ -134,9 +134,9 @@ export default function Sidenav() {
                   justifyContent: "center",
                 }}
               >
-                <GroupIcon />
+                <CategoryIcon />
               </ListItemIcon>
-              <ListItemText primary="Users" sx={{ opacity: open ? 1 : 0 }} />
+              <ListItemText primary="Products" sx={{ opacity: open ? 1 : 0 }} />
             </ListItemButton>
           </ListItem>
 

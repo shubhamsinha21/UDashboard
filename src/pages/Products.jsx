@@ -2,7 +2,7 @@ import Sidenav from "../components/Sidenav";
 import { Box } from "@mui/material";
 import Navbar from "../components/Navbar";
 
-export default function About() {
+export default function Products() {
   return (
     <>
       <Navbar />
@@ -10,7 +10,7 @@ export default function About() {
       <Box sx={{ display: "flex" }}>
         <Sidenav />
         <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-          <h1>Users</h1>
+          <h1>kjk</h1>
         </Box>
       </Box>
     </>
