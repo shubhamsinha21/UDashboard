@@ -8,6 +8,7 @@ import { Typography, Stack } from "@mui/material";
 import "../NewApp.css";
 import Geochart from "../charts/Geochart";
 import Piechart from "../charts/Piechart";
+import Hbarchart from "../charts/Hbarchart";
 
 export default function Analytics() {
   return (
@@ -151,7 +152,11 @@ export default function Analytics() {
               </Grid>
 
               <Grid item xs={7}>
-                <Card sx={{ height: 300 }}></Card>
+                <Card sx={{ height: 300 }}>
+                  <CardContent>
+                    <Hbarchart />
+                  </CardContent>
+                </Card>
               </Grid>
             </Grid>
 

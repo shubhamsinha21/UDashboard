@@ -20,14 +20,20 @@ export const options = {
   vAxis: {
     title: "City",
   },
+  colors: [
+    "rgb(28, 138, 129)",
+    "rgb(255, 141, 151)",
+    "rgb(160, 148, 187)",
+    "rgb(30, 79, 143)",
+  ],
 };
 
-export function App() {
+export default function Hbarchart() {
   return (
     <Chart
       chartType="BarChart"
       width="100%"
-      height="400px"
+      height="280px"
       data={data}
       options={options}
     />
