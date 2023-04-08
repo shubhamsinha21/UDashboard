@@ -7,6 +7,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TablePagination from "@mui/material/TablePagination";
 import TableRow from "@mui/material/TableRow";
+import Typography from "@mui/material/Typography";
 
 const columns = [
   { id: "name", label: "Name", minWidth: 170 },
@@ -72,6 +73,14 @@ export default function ProductsList() {
 
   return (
     <Paper sx={{ width: "100%", overflow: "hidden" }}>
+      <Typography
+        gutterBottom
+        variant="h5"
+        component="div"
+        sx={{ padding: "20px" }}
+      >
+        Products List
+      </Typography>
       <TableContainer sx={{ maxHeight: 440 }}>
         <Table stickyHeader aria-label="sticky table">
           <TableHead>
