@@ -10,7 +10,7 @@ export default function About() {
       <Box sx={{ display: "flex" }}>
         <Sidenav />
         <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-          <h1>Users</h1>
+          <h1>Products</h1>
         </Box>
       </Box>
     </>

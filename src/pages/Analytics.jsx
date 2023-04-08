@@ -9,6 +9,7 @@ import "../NewApp.css";
 import Geochart from "../charts/Geochart";
 import Piechart from "../charts/Piechart";
 import Hbarchart from "../charts/Hbarchart";
+import CountUp from "react-countup";
 
 export default function Analytics() {
   return (
@@ -41,7 +42,7 @@ export default function Analytics() {
                         component="div"
                         sx={{ color: "#ffffff" }}
                       >
-                        24,670
+                        <CountUp end={34000} delay={0.3} duration={0.5} />
                       </Typography>
                       <Typography
                         gutterBottom
@@ -72,7 +73,7 @@ export default function Analytics() {
                         component="div"
                         sx={{ color: "#ffffff" }}
                       >
-                        24,670
+                        <CountUp end={12670} delay={0.3} duration={0.5} />
                       </Typography>
                       <Typography
                         gutterBottom
@@ -105,7 +106,7 @@ export default function Analytics() {
                         component="div"
                         sx={{ color: "#ffffff" }}
                       >
-                        24,670
+                        <CountUp end={24078} delay={0.3} duration={0.5} />
                       </Typography>
                       <Typography
                         gutterBottom
@@ -136,7 +137,7 @@ export default function Analytics() {
                         component="div"
                         sx={{ color: "#ffffff" }}
                       >
-                        24,670
+                        <CountUp end={1450} delay={0.3} duration={0.5} />
                       </Typography>
                       <Typography
                         gutterBottom
