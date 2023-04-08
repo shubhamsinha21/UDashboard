@@ -1,6 +1,7 @@
 import Sidenav from "../components/Sidenav";
 import { Box } from "@mui/material";
 import Navbar from "../components/Navbar";
+import ProductsList from "../charts/products/ProductsList";
 
 export default function Products() {
   return (
@@ -10,7 +11,7 @@ export default function Products() {
       <Box sx={{ display: "flex" }}>
         <Sidenav />
         <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-          <h1>kjk</h1>
+          <h1>Users</h1>
         </Box>
       </Box>
     </>
