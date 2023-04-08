@@ -16,6 +16,7 @@ import ReceiptIcon from "@mui/icons-material/Receipt";
 export default function Home() {
   return (
     <>
+      <Navbar />
       <div className="bgcolor">
         <Box height={70} />
         <Box sx={{ display: "flex" }}>
@@ -133,7 +134,6 @@ export default function Home() {
           </Box>
         </Box>
       </div>
-      <Navbar />
     </>
   );
 }
