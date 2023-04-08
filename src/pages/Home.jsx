@@ -11,6 +11,7 @@ import CreditCardIcon from "@mui/icons-material/CreditCard";
 import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
 import AccordianComp from "../components/AccordianComp";
 import BarChart from "../charts/Barchart";
+import ReceiptIcon from "@mui/icons-material/Receipt";
 
 export default function Home() {
   return (
@@ -95,13 +96,13 @@ export default function Home() {
                   <Card>
                     <Stack spacing={2} direction="row">
                       <div className="iconStyleBlack">
-                        <StorefrontIcon />
+                        <ReceiptIcon />
                       </div>
 
                       <div className="paddingAll">
-                        <span className="priceTitle">$230k</span>
+                        <span className="priceTitle">352</span>
                         <br />
-                        <span className="priceSubTitle">Total Income</span>
+                        <span className="priceSubTitle">Total Sales</span>
                       </div>
                     </Stack>
                   </Card>
